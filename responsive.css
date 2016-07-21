@@ -1,0 +1,5 @@
+@media (min-width: 320px) and (max-width: 579px) {
+    .main-heading > h1 {
+        font-size: 5vh;
+    }
+}
