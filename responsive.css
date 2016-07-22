@@ -162,11 +162,40 @@
         font-size: 15px;
     }
 
-    #artistName >
 }
 
 /*************************** LANDSCAPE ********************************/
 
 @media (min-width: 580px) and (max-width: 767px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-size: 48px 90px;
+    }
+
+    .main-heading {
+        font-size: 9vh;
+        position: relative;
+        left: -14vw;
+        margin-top: -4vh;
+    }
+
+    .landing {
+        margin: 0;
+    }
+
+    #verbSelect {
+        width: 30vw;
+        position: relative;
+        left: -15vw;
+    }
+
+    .blurb {
+        font-size: 5vh;
+        margin-left: -29vw;
+    }
 
 }
