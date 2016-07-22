@@ -102,22 +102,39 @@
     #read {
         position: relative;
         left: -15.5vw;
+        margin-top: 6vh;
     }
 
     .tweets {
         width: 64vw;
+        margin-bottom: -10px;
     }
 
     .media-heading-name {
         font-size: 1.5vh;
+        margin: 0;
+        padding: 0;
     }
 
-    .userName {
+    .name {
         font-size: 1.5vh;
     }
 
     .text {
         font-size: 1.25vh;
+    }
+
+    .well {
+        padding: 1px;
+    }
+
+    .prev {
+        top: 59%;
+    }
+
+    .next {
+        right: 33%;
+        top: 59%;
     }
 }
 
