@@ -144,6 +144,25 @@
         top: 10vh;
         height: 19vh;
     }
+
+    #listenInfoDiv {
+        width: 64vw;
+        height: 22vh;
+        top: 21%;
+        left: 31.5%;
+    }
+
+    #audio {
+        position: relative;
+        left: -15.5vw;
+        width: 65vw;
+    }
+
+    .glyphicon-user, .glyphicon-music, .track-info {
+        font-size: 15px;
+    }
+
+    #artistName >
 }
 
 /*************************** LANDSCAPE ********************************/
