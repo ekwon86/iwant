@@ -136,6 +136,14 @@
         right: 33%;
         top: 62%;
     }
+
+    #ytplayer {
+        width: 65vw;
+        position: relative;
+        left: -16vw;
+        top: 10vh;
+        height: 19vh;
+    }
 }
 
 /*************************** LANDSCAPE ********************************/
