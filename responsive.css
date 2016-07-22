@@ -116,7 +116,7 @@
         padding: 0;
     }
 
-    .name {
+    .name, .userName {
         font-size: 1.5vh;
     }
 
@@ -129,12 +129,12 @@
     }
 
     .prev {
-        top: 59%;
+        top: 62%;
     }
 
     .next {
         right: 33%;
-        top: 59%;
+        top: 62%;
     }
 }
 
