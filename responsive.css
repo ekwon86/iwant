@@ -1,5 +1,73 @@
+
+/*************************** PORTRAIT *********************************/
+
 @media (min-width: 320px) and (max-width: 579px) {
-    .main-heading > h1 {
-        font-size: 5vh;
+    body {
+        background-size: 50px 50px;
     }
+
+    .main-heading {
+        margin-left: -30vw;
+    }
+
+    .main-heading > h1 {
+        font-size: 6vh;
+    }
+
+    .blurb {
+        font-size: 4vh;
+        margin-left: -31vw;
+    }
+
+    select {
+        font-size: 4vh;
+        padding: 1vh 1vw 1vh 1vw;
+        position: relative;
+        left: -15vw;
+        width: 50vw;
+    }
+
+    #landing {
+        margin-top: 0;
+    }
+
+    .mdl-selectfield {
+        padding: 1vh 0vw 1vh 0vw;
+    }
+
+    #verbSelect {
+        position: relative;
+        padding-left: 14vw;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    #nounInput {
+        width: 50vw;
+        left: 27vw;
+    }
+
+    input[type=text] {
+        font-size: 4vh;
+    }
+
+    a.now-button {
+        font-size: 4vh;
+    }
+
+    .button-group {
+        position: relative;
+        left: -14vw;
+        top: -2vh;
+    }
+
+    .input-container {
+        height: 100px;
+    }
+}
+
+/*************************** LANDSCAPE ********************************/
+
+@media (min-width: 580px) and (max-width: 767px) {
+
 }
