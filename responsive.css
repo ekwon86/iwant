@@ -64,6 +64,61 @@
     .input-container {
         height: 100px;
     }
+
+    a.start-over-btn {
+        position: absolute;
+        top: 11vh;
+        left: 20px;
+        text-shadow: 0 1px 1px #344152;
+        text-decoration: none;
+        color: white;
+        width: 100px;
+        height: 30px;
+        background-color: #ef5350;
+        padding: 7px;
+        font-size: 13px;
+        border-radius: 5px;
+        box-shadow: 0 3px 4px -2px #000;
+        transition: all 0.2s;
+    }
+
+    a.twitter-share-button {
+        position: absolute;
+        top: 11vh;
+        left: 37vw;
+        text-shadow: 0 1px 1px #344152;
+        text-decoration: none;
+        color: white;
+        width: 100px;
+        height: 30px;
+        background-color: #55acee;
+        padding: 6px;
+        font-size: 13px;
+        border-radius: 5px;
+        box-shadow: 0 3px 4px -2px #000;
+        transition: all 0.2s;
+    }
+
+    #read {
+        position: relative;
+        left: -15.5vw;
+    }
+
+    .tweets {
+        width: 64vw;
+    }
+
+    .media-heading-name {
+        font-size: 1.5vh;
+    }
+
+    .userName {
+        font-size: 1.5vh;
+    }
+
+    .text {
+        font-size: 1.25vh;
+    }
 }
 
 /*************************** LANDSCAPE ********************************/
